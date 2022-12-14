@@ -11,6 +11,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>
 );
 
-// ====================================================
-
-// ReactDOM.render(painting, document.querySelector('#root'));
