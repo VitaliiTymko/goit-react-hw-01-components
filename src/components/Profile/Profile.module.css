@@ -1,0 +1,58 @@
+ul {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.profile { 
+  width: 400px;
+  
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+  background-color: rgb(167, 163, 163);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.description {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.avatar {  
+  width: 70%;
+  border-radius: 50%;
+  padding-top: 30px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;    
+    width: calc(100%/3);
+    
+    border: 1px solid black;
+}
+
+.label {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    
+}
+
+.quantity {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
