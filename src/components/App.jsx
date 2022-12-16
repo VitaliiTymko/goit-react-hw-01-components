@@ -25,14 +25,8 @@ export const App = () => {
         likes={user.stats.likes}
       />
 
-      {data.map(data => (
-        <Statistics
-        key={data.id}
-        title={data.title}        
-        label={data.label}
-        percentage={data.percentage}
-         />
-      ))}
+      <Statistics title="Upload stats" stats={data} />
+      <Statistics stats={data} />
     </div>
   );
 };
