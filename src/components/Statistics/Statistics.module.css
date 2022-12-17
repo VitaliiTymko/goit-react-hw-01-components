@@ -23,7 +23,8 @@
   padding-bottom: 30px;
 
   text-transform: uppercase;
-  text-shadow: 1px 1px 20px #4b4a4a;
+  text-shadow: 1px 1px 20px #b1afaf;
+  color: rgb(64, 75, 75);
 }
 
 .statList {

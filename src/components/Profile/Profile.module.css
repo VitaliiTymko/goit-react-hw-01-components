@@ -14,7 +14,7 @@ ul {
   margin-bottom: 150px;
 
   text-align: center;
-  background-color: rgb(167, 163, 163);
+  background-color: rgb(216, 214, 214);
   box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -30,6 +30,12 @@ ul {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.tag,
+.location,
+.label {
+  color: rgb(107, 129, 129);
 }
 
 .stats {
